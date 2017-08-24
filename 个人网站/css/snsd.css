@@ -1,0 +1,32 @@
+body{
+    background: #000;
+}
+.video-row{
+    padding: 20px;
+}
+/********nav**********/
+.btn.btn-navbar{
+    float: right;
+    margin-top:9px;
+    background: #f0f;
+    width: 60px;
+}
+a.navbar-brand{
+    padding:10px;
+}
+.navbar-brand img{
+    width: 30px;
+    display: inline-block;
+    vertical-align:bottom;
+    margin-right:5px;
+}
+.nav.nav-navbar>li{
+    float:left;
+    margin-top:10px;
+}
+@media (min-width: 768px) {
+    .btn.btn-navbar{
+        display: none;
+    }
+}
+/**************banner*********/

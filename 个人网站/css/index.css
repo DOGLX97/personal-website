@@ -1,0 +1,92 @@
+#header{
+    background:url("../img/illustration2.png"),url("../img/bg2.png") ;
+}
+#nav{
+    margin-top: 10px;
+    height: 50px;
+    /*background: #f0f;*/
+    z-index: 1;
+}
+#nav-menu{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    /*overflow: hidden;*/
+    background: #222222;
+    border-radius: 5px;
+}
+#nav-menu li{
+    width: 30px;
+    height: 3px;
+    background: #fff;
+}
+.icon-bar{
+    margin: 10px;
+}
+.icon-up{
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.icon-down{
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+#sub-menu{
+    background: rgba(66,65,62,.4);
+    padding: 0;
+    display: none;
+}
+#sub-menu a{
+    display: block;
+    margin: 10px;
+    color: #fff;
+}
+.bg-computer{
+    /*margin-top: -50px;*/
+    padding-top:115%;
+    background: url("../img/illustration.png") no-repeat 0 0/contain;
+}
+.bg-text-info{
+    margin-top:150px;
+    color: #fff;
+}
+#arrow{
+    width: 50px;
+    font-size: 50px;
+}
+#arrow:hover{
+    cursor:pointer;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+@media (max-width: 992px){
+    .bg-text-info{
+        margin-top: -80px;
+    }
+}
